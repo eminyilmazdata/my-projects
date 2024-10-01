@@ -1,0 +1,11 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df = pd.read_csv('/Users/salamivoormij/Documents/datasets/churn/telecom_churn_clean.csv')
+
+# Display basic information about the dataset
+print(df.info())
+
+# Show the first few rows
+print(df.head())
